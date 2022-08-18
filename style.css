@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containar {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(236, 250, 215);
+}
+
+.mainbox {
+    height: 80%;
+    width: 300px;
+    /* background-color: tomato; */
+    margin: auto;
+    align-items: center;
+    padding: 150px 0px 0px 0px;
+    /* position: fixed; */
+}
+
+.box {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(204, 200, 200);
+    border-radius: 10px 10px 5px 5px;
+}
+
+.box1 {
+    height: 190px;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+.box2 {
+    height: 320px;
+    width: 100%;
+    /* background-color: rgb(204, 200, 200); */
+}
+
+.image {
+    height: 100%;
+    width: 80%;
+    /* background-color: aquamarine; */
+    padding: 20px;
+    margin: auto;
+}
+
+.img {
+    height: 52%;
+    width: 110px;
+    margin: auto;
+    /* margin-top: 30px; */
+    background-color: rgb(220, 240, 149);
+    box-shadow: 0px 0px 0px 5px rgba(2, 2, 2, 0.397);
+    border-radius: 15px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.image h2 {
+    font-size: 33px;
+    text-align: center;
+    margin-top: 8px;
+    /* color: white; */
+}
+
+.image h2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.image p {
+    font-size: 25px;
+    color: white;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.bio {
+    height: 92%;
+    margin: auto;
+    width: 90%;
+    /* background-color: blue;  */
+    padding: 10px;
+}
+
+.phn {
+    height: 50px;
+    width: 100%;
+    margin: 8px auto;
+    background-color: rgb(243, 239, 232);
+    border-radius: 10px;
+}
+
+.phn:hover {
+    box-shadow: 0px 0px 5px 3px rgb(124 112 112);
+}
+
+.a1 {
+    height: 100%;
+    width: 20%;
+    float: left;
+    /* background-color: rebeccapurple; */
+}
+
+.a1 i {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 8px;
+    color: rgb(255, 102, 0);
+}
+
+.a2 p {
+    color: red;
+}
+
+.a2 h3 a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.a2 h3 a:hover {
+    color: rgb(255, 0, 128);
+}
+
+.gm {
+    height: 50px;
+    width: 100%;
+    margin: 8px auto;
+    background-color: rgb(243, 239, 232);
+    border-radius: 10px;
+}
+
+.gm:hover {
+    box-shadow: 0px 0px 5px 3px rgb(124 112 112);
+}
+
+.b1 {
+    height: 100%;
+    width: 20%;
+    float: left;
+    /* background-color: rebeccapurple; */
+}
+
+.b1 i {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 8px;
+    color: rgb(255, 102, 0);
+}
+
+.b2 p {
+    color: red;
+}
+
+.b2 h3 a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.b2 h3 a:hover {
+    color: rgb(255, 0, 128);
+}
+
+.web {
+    height: 50px;
+    width: 100%;
+    margin: 8px auto;
+    background-color: rgb(243, 239, 232);
+    border-radius: 10px;
+}
+
+.web:hover {
+    box-shadow: 0px 0px 5px 3px rgb(124 112 112);
+}
+
+.c1 {
+    height: 100%;
+    width: 20%;
+    float: left;
+    /* background-color: rebeccapurple; */
+}
+
+.c1 i {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 8px;
+    color: rgb(255, 102, 0);
+}
+
+.c2 p {
+    color: red;
+}
+
+.c2 h3 a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.c2 h3 a:hover {
+    color: rgb(255, 0, 128);
+}
+
+.lo {
+    height: 50px;
+    width: 100%;
+    margin: 8px auto;
+    background-color: rgb(243, 239, 232);
+    border-radius: 10px;
+}
+
+.lo:hover {
+    box-shadow: 0px 0px 5px 3px rgb(124 112 112);
+}
+
+.d1 {
+    height: 100%;
+    width: 20%;
+    float: left;
+    /* background-color: rebeccapurple; */
+}
+
+.d1 i {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 8px;
+    color: rgb(255, 102, 0);
+}
+
+.d2 p {
+    color: red;
+}
+
+.d2 h3 a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.d2 h3 a:hover {
+    color: rgb(255, 0, 128);
+}
+
+.link {
+    height: 56px;
+    width: 100%;
+    /* display: inline-block; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+    text-align: center;
+}
+
+.sm {
+    height: 50px;
+    width: 48px;
+    background-color: red;
+    /* float: left; */
+    border-radius: 10px;
+}
+
+.sm:hover {
+    box-shadow: 0px 0px 5px 3px rgb(124 112 112);
+}
+
+.sm a i {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    /* margin-left: 8px; */
+}
+
+.sn {
+    height: 50px;
+    width: 48px;
+    background-color: red;
+    /* float: left; */
+    border-radius: 10px;
+}
+
+.sn:hover {
+    box-shadow: 0px 0px 5px 3px rgb(124 112 112);
+}
+
+.sn a i {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    /* margin-left: 8px; */
+}
+
+.so {
+    height: 50px;
+    width: 48px;
+    background-color: red;
+    /* float: left; */
+    border-radius: 10px;
+}
+
+.so:hover {
+    box-shadow: 0px 0px 5px 3px rgb(124 112 112);
+}
+
+.so a i {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    /* margin-left: 8px; */
+}
+
+.sp {
+    height: 50px;
+    width: 48px;
+    background-color: red;
+    /* float: left; */
+    border-radius: 10px;
+}
+
+.sp:hover {
+    box-shadow: 0px 0px 5px 3px rgb(124 112 112);
+}
+
+.sp a i {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    /* margin-left: 8px; */
+}
+
+.sq {
+    height: 50px;
+    width: 48px;
+    background-color: red;
+    /* float: left; */
+    border-radius: 10px;
+}
+
+.sq:hover {
+    box-shadow: 0px 0px 5px 3px rgb(124 112 112);
+}
+
+.sq a i {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    /* margin-left: 8px; */
+}
